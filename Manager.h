@@ -11,5 +11,5 @@ private:
 public:
     Manager(string mId ,  string mName);
     void assignTravelGuides();
-    void generateReports();
+    void generateReports(); 
 };

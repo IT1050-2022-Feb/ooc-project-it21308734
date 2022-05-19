@@ -5,13 +5,16 @@
 class Payment
 {
 private:
+
     int paymentId;
     string paymentMethod;
     double amount;
 
 public:
+
     void setPaymentDetails(int payId, string payMethod, double payAmount);
     float getPayment();
     Payment(); 
 	  ~Payment();
 };
+

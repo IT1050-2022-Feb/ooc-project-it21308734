@@ -6,6 +6,7 @@
 Admin::Admin(int aId , char aType[]){
     aId = adminId;
     strcpy (admin, aType);
+  
 }
 
 void Admin::viewReport(){

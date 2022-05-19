@@ -14,6 +14,7 @@ Payment::setPaymentDetails(int payId, string payMethod, double payAmount)
     paymentId = payId;
     paymentMethod = payMethod;
     amount = payAmount;
+  
 }
 
 float Payment::getPayment()

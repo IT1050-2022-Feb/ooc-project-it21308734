@@ -11,4 +11,4 @@ Manager::ManagerDetails(int mId, string mName)
 
 void Manager::assignTravelGuides(){}
 
-void Manager::generateReports(){}
+void Manager::generateReports(){} 
